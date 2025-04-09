@@ -91,7 +91,7 @@
     opacity: 1;
     color: #fff;
     filter: drop-shadow(0 2px 1px #000000) drop-shadow(0 0 1px #d1d1d1);
-  transform: scale(1); /* ป้องกันการขยายขนาด */
+    transform: scale(1); /* ป้องกันการขยายขนาด */
 }
 
 
