@@ -15,16 +15,16 @@ export const Scrolling = () => {
         >
           <div style={{ display: "flex", alignItems: "center" }}>
             {[
-              { name: "HTML", src: "../src/assets/html-5-svgrepo-com.svg" },
-              { name: "CSS", src: "../src/assets/css-3-svgrepo-com.svg" },
-              { name: "JavaScript", src: "../src/assets/javascript.svg" },
-              { name: "TypeScript", src: "../src/assets/typescript-icon-svgrepo-com.svg" },
-              { name: "Tailwind CSS", src: "../src/assets/tailwind-svgrepo-com.svg" },
-              { name: "Vercel", src: "../src/assets/vercel-fill-svgrepo-com.svg" },
-              { name: "Figma", src: "../src/assets/figma-svgrepo-com.svg" },
-              { name: "Firebase", src: "../src/assets/firebase-svgrepo-com.svg" },
-              { name: "Vite", src: "../src/assets/vite-svgrepo-com.svg" },
-              { name: "React", src: "../src/assets/react.svg" },
+              { name: "HTML", src: "assets/html-5-svgrepo-com.svg" },
+              { name: "CSS", src: "assets/css-3-svgrepo-com.svg" },
+              { name: "JavaScript", src: "assets/javascript.svg" },
+              { name: "TypeScript", src: "assets/typescript-icon-svgrepo-com.svg" },
+              { name: "Tailwind CSS", src: "assets/tailwind-svgrepo-com.svg" },
+              { name: "Vercel", src: "assets/vercel-fill-svgrepo-com.svg" },
+              { name: "Figma", src: "assets/figma-svgrepo-com.svg" },
+              { name: "Firebase", src: "assets/firebase-svgrepo-com.svg" },
+              { name: "Vite", src: "assets/vite-svgrepo-com.svg" },
+              { name: "React", src: "assets/react.svg" },
             ].map((item, index) => (
               <div
                 key={index}
