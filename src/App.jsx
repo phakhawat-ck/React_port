@@ -17,7 +17,7 @@ function App() {
         <div className="">
           <Hero />
           <Scrolling />
-          <div className="px-10 lg:px-40 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-20">
+          <div className="px-10 lg:px-20 grid grid-cols-1 gap-10 lg:grid-cols-2 lg:gap-20">
               <About /> 
               <Project />      
               
