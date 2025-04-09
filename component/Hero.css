@@ -51,64 +51,51 @@
         }
     }
 }
-.skill-img{
+
+.skill-img {
     width: 43px;
     height: 43px;
     border-radius: 5px;
     background-color: #1818189f;
     border: 1px solid rgba(38, 38, 38, .7);
 }
-.skills img:hover{
+
+.skills img:hover {
     filter: drop-shadow(0 0 3px #ffffff) drop-shadow(0 0 1px #ffffff);
 }
 
-.project{
+.project {
     background-color: #1818184d;
     border: 1px solid rgba(38, 38, 38, .7);
-    img{
-        
+
+    img {
         transition: 0.5s;
 
     }
-    img:hover{
+
+    img:hover {
         transform: scale(1.3) rotate(10deg);
         transition: 0.5s;
         filter: drop-shadow(0 0 3px #ffffff) drop-shadow(0 0 1px #ffffff);
+        background-color: #181818cc;
     }
-    a:hover{
-        background-color: rgba(255, 255, 255, 0.849);
-        color: #000000;
+
+    a:hover {
+        background-color: rgba(255, 255, 255, 0.847);
+        color: rgb(0, 0, 0);
+        transition: all 0.3s;
     }
 }
 
 
-.icon-item {
-    opacity: 0.2;
-    transition: transform 0.3s ease, color 0.3s ease; /* Transition effect */
-}
-
-.icon-item:hover {
-    opacity: 1;
-    color: #fff;
-    filter: drop-shadow(0 2px 1px #000000) drop-shadow(0 0 1px #d1d1d1);
-    transform: scale(1); /* ป้องกันการขยายขนาด */
-}
-
-
-
-
-
-
-
-
-/* 
 .icon-item {
     opacity: 0.2;
     transition: transform 0.3s ease, color 0.3s ease;
 }
 
 .icon-item:hover {
+    opacity: 1;
     color: #fff;
     filter: drop-shadow(0 2px 1px #000000) drop-shadow(0 0 1px #d1d1d1);
-    transform: scale(1.1);
-} */
+    transform: scale(1);
+}
