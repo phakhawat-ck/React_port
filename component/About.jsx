@@ -1,7 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import "../src/App.css";
-import { Skills } from "./skills";
+import { Skills } from "./Skills";
 export const About = () => {
   return (
     <div className="">
