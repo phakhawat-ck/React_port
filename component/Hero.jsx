@@ -3,7 +3,7 @@ import "./Hero.css";
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope,faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 
 export const Hero = () => {
   const name = " Phakhawat";

@@ -1,12 +1,15 @@
 import React from "react";
-
+import { Tooltip } from "react-tooltip";
+import "react-tooltip/dist/react-tooltip.css";
 const projects = [
   {
     name: "CLONE WEB Smartmag",
     href: "https://github.com/phakhawat-ck/Frontend_cloneweb/tree/main/Smartmag",
     imgSrc: "/assets/overview/S.png",
-    detel: "A static clone of the Smartmag magazine layout built with pure HTML and CSS. This was my first hands-on project focused on practicing CSS Grid.",
-    challenge: "CSS class naming was inconsistent. I'm improving this by learning BEM and utility-first CSS for cleaner, maintainable code.",
+    detel:
+      "A static clone of the Smartmag magazine layout built with pure HTML and CSS. This was my first hands-on project focused on practicing CSS Grid.",
+    challenge:
+      "CSS class naming was inconsistent. I'm improving this by learning BEM and utility-first CSS for cleaner, maintainable code.",
     framwork: ["HTML", "CSS"],
     tag: "#clone web ",
     tag_href: "https://smartmag-pbt.blogspot.com/",
@@ -15,9 +18,11 @@ const projects = [
     name: "Frontend Projects",
     href: "https://github.com/phakhawat-ck/roadmap.sh-section",
     imgSrc: "/assets/overview/roadmap.png",
-    detel: "A personal journey through Frontend Roadmap A collection of mini-projects to improve my skills in HTML, CSS, and JavaScript.",
-    challenge: "I’m currently learning JavaScript on my own, so this project was a fun way to practice things like working with the DOM and making the UI interactive. It was a bit tricky at first, but it really helped me understand how everything connects.",
-    framwork: ["HTML", "CSS","❔JAVA SCRIPT"],
+    detel:
+      "A personal journey through Frontend Roadmap A collection of mini-projects to improve my skills in HTML, CSS, and JavaScript.",
+    challenge:
+      "I’m currently learning JavaScript on my own, so this project was a fun way to practice things like working with the DOM and making the UI interactive. It was a bit tricky at first, but it really helped me understand how everything connects.",
+    framwork: ["HTML", "CSS", "❔JAVA SCRIPT"],
     tag: "#roadmap.sh",
     tag_href: "https://roadmap.sh/frontend/projects",
   },
@@ -25,9 +30,11 @@ const projects = [
     name: "React Portfolio",
     href: "https://github.com/phakhawat-ck/React_port",
     imgSrc: "/assets/overview/port.png",
-    detel: "This is my personal portfolio project, built using React and Tailwind CSS. It's my very first experience working with both technologies",
-    challenge: "This portfolio was my first project using React with Tailwind CSS. I faced challenges in component structure and styling with utility classes, but it helped me learn how to build reusable components and improve my frontend skills.",
-    framwork: ["React", "CSS","Tailwind","Vercel"],
+    detel:
+      "This is my personal portfolio project, built using React and Tailwind CSS. It's my very first experience working with both technologies",
+    challenge:
+      "This portfolio was my first project using React with Tailwind CSS. I faced challenges in component structure and styling with utility classes, but it helped me learn how to build reusable components and improve my frontend skills.",
+    framwork: ["React", "CSS", "Tailwind", "Vercel"],
     tag: "#website",
     tag_href: "https://phakhawat.vercel.app/",
   },
@@ -45,9 +52,21 @@ const ProjectCard = ({ project }) => {
           href={project.href}
           target="_blank"
           rel="noopener noreferrer"
-          className=""
-
+          data-tooltip-id={`tooltip-${project.id}`}
+          data-tooltip-content="Github"
+          
+          data-tooltip-float="true" // ✅ follow mouse
         >
+          <Tooltip
+            id={`tooltip-${project.id}`}
+            style={{
+              backgroundColor: "#1818189d", // สีพื้นหลัง
+              color: "#fff", // สีตัวอักษร
+              padding: "8px 12px",
+              borderRadius: "8px",
+              zIndex: 9999,
+            }}
+          />
           <img
             src={project.imgSrc}
             alt={project.name}
@@ -58,7 +77,9 @@ const ProjectCard = ({ project }) => {
 
       {/* Details Right */}
       <div className="flex flex-col justify-center">
-        <h2 className="text-xl font-bold mb-2 text-white uppercase tracking-widest ">{project.name}</h2>
+        <h2 className="text-xl font-bold mb-2 text-white uppercase tracking-widest ">
+          {project.name}
+        </h2>
         <h4 className="underline lg:ml-3"> Description:</h4>
         <p className="text-white/70 mb-2 text-[13px]">{project.detel}</p>
         <h4 className="underline lg:ml-3"> Challenges:</h4>
