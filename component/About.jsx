@@ -15,7 +15,7 @@ export const About = () => {
         </div>
         <div className="text-white/70 mt-5">
           <p className="mb-4 tracking-wider">
-            I'm Phakhawat, currently a 4th-year Computer Science student at <br />
+            I'm Phakhawat Chomkul, currently a 4th-year Computer Science student at <br />
             <span className="font-bold"> Rajamangala University of Technology Krungthep (RMUTK).</span>
           </p>
           <p className="mb-4 tracking-wider">
