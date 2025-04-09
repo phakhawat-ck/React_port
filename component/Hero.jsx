@@ -1,9 +1,10 @@
 import React from "react";
 import "./Hero.css";
+import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope,faLocationArrow } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faLocationArrow } from "@fortawesome/free-solid-svg-icons";
 
 export const Hero = () => {
   const name = " Phakhawat";
@@ -13,26 +14,30 @@ export const Hero = () => {
       icon: faEnvelope,
       tooltip: "E-mail",
     },
-    { href: "https://github.com/phakhawat-ck", icon: faGithub, tooltip: "GitHub" },
+    {
+      href: "https://github.com/phakhawat-ck",
+      icon: faGithub,
+      tooltip: "GitHub",
+    },
   ];
   return (
     <div>
-      {/* <div className="absolute top-0 z-[-2] h-screen w-screen bg-neutral-950 bg-[radial-gradient(ellipse_80%_80%_at_50%_-20%,rgba(120,119,198,0.3),rgba(255,255,255,0))]"> */}
       <div className="font-light  flex justify-center pt-50 lg:py-30 flex-col items-center">
         <div className="text-c w-70 lg:w-2xl block p-5">
-          <h1 className="text-4xl lg:text-5xl  bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400">
+          <motion.h1
+            className="text-4xl lg:text-5xl  bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
+            initial={{ opacity: 0, x: -100 }} // เริ่มต้น
+            animate={{ opacity: 1, x: 0 }} // ตอนแสดง
+            transition={{ duration: 0.8 }} // ความเร็ว
+          >
             Hello!,I'm
-          </h1>
+          </motion.h1>
           <div className="flex mb-5">
             <span className="text font-light  lg:text-5xl h-30">
-            <TypeAnimation
-                sequence={[
-                  name,
-                  2000,
-                 
-                ]}
+              <TypeAnimation
+                sequence={["", 1000, name, 5000]}
                 wrapper="span"
-                speed={5}
+                speed={1}
                 repeat={Infinity}
                 className="font-light text-4xl lg:text-6xl"
               />
@@ -43,7 +48,7 @@ export const Hero = () => {
                   2000,
                   " A pragmatic Frontend Developer.",
                   2000,
-                  "Web Developer.",
+                  "Junior Frontend Developer.",
                   2000,
                 ]}
                 wrapper="span"
@@ -53,11 +58,32 @@ export const Hero = () => {
               />
             </span>
           </div>
-          <p className="text-lg lg:text-2xl ">
+
+          <motion.p
+            className="text-lg lg:text-2xl "
+            initial={{ opacity: 0, x: -120 }} // เริ่มต้น
+            animate={{ opacity: 1, x: 0 }} // ตอนแสดง
+            transition={{ duration: 0.5 }} // ความเร็ว
+          >
             I am a fourth-year <br />
-            <span className="gradient-text"> Computer Science Student </span>
-            <p className="text-sm">Live in Bangkok, Thailand</p>
-          </p>
+            <motion.span
+              className="gradient-text"
+              initial={{ opacity: 0, x: 180 }} // เริ่มต้น
+              animate={{ opacity: 1, x: 0 }} // ตอนแสดง
+              transition={{ duration: 0.7 }} // ความเร็ว
+            >
+              {" "}
+              Computer Science Student{" "}
+            </motion.span>
+            <motion.p
+              className="text-sm"
+              initial={{ opacity: 0, x: 120 }} // เริ่มต้น
+              animate={{ opacity: 1, x: 0 }} // ตอนแสดง
+              transition={{ duration: 1.3 }} // ความเร็ว
+            >
+              Live in Bangkok, Thailand
+            </motion.p>
+          </motion.p>
           <div className="link_icon mt-4 flex mx-6 ">
             {links.map((link, index) => (
               <a
