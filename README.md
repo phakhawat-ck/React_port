@@ -43,8 +43,8 @@ Feel free to explore the code and leave suggestions!
 ---
 ### Desktop
 <p align="center">
-  <img src="./Overview/mac/phakhawat.vercel.app_-front.png" width="500"/>
-  <img src="./Overview/mac/1.png" width="500"/>
+  <img src="./Overview/mac/phakhawat.vercel.app_-front.png" width="800"/>
+  <img src="./Overview/mac/1.png" width="800"/>
 </p>
 
 ### **Responsive**:
