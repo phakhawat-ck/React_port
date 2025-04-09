@@ -37,3 +37,7 @@ I'm passionate about front-end development and always eager to learn new tools a
 This portfolio is one of my first steps into the world of React development.
 
 Feel free to explore the code and leave suggestions!
+
+### Design Overview
+
+---
