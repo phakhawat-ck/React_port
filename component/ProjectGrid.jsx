@@ -47,7 +47,7 @@ const ProjectCard = ({ project }) => {
 
       {/* Details Right */}
       <div className="flex flex-col justify-center">
-        <h2 className="text-xl font-bold mb-2 text-white uppercase">{project.name}</h2>
+        <h2 className="text-xl font-bold mb-2 text-white uppercase tracking-widest ">{project.name}</h2>
         <h4 className="underline lg:ml-3"> Description:</h4>
         <p className="text-white/70 mb-2 text-[13px]">{project.detel}</p>
         <h4 className="underline lg:ml-3"> Challenges:</h4>

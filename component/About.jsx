@@ -11,7 +11,7 @@ export const About = () => {
         </p>
         <div className="text-2xl lg:text-3xl">
           <span>Hi there! I'm</span>
-          <span className="mx-2 text-3xl text">Phakhawat</span>
+          <span className="mx-2 text-3xl text">&nbsp;Phakhawat</span>
         </div>
         <div className="text-white/70 mt-5">
           <p className="mb-4 tracking-wider">
@@ -33,8 +33,8 @@ export const About = () => {
       <div className="skills line_center">
         <p className="text-white/70 text-[15px] mb-4 uppercase">skills</p>
         <div className="text-2xl lg:text-3xl">
-          <span>My</span>
-          <span className="mx-2 text-3xl text">Skills</span>
+          <span >My &nbsp;</span>
+          <span className="mx-2 text-3xl text ">Skills</span>
         </div>
 
         <div className="text-white/70 mt-5">
