@@ -5,7 +5,4 @@
 body::selection {
     color: #181818;
     background-color: rgba(255, 255, 255, 0.849);
-    font-weight: 500;
-    text-shadow: 0 0 1px #674aaa, 0 0 1px #7469afa1;
-    caret-color: #62498f;
 }
