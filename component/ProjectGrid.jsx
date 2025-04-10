@@ -107,7 +107,7 @@ const ProjectGrid = ({ inModal = false ,limit  }) => {
   return (
     <div
       className={`grid gap-10 ${
-        inModal ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : ""
+        inModal ? "grid-cols-1 md:grid-cols-1 lg:grid-cols-2" : ""
       }`}
     >
       {displayProjects.map((project, idx) => (

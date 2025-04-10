@@ -23,16 +23,16 @@ export const Project = () => {
             xmlns="http://www.w3.org/2000/svg"
             width="24"
             height="24"
-            className="fill-white"
+            className="fill-white text-white hover:text-black"
           >
             <path d="M17 7V5H5v12h2V8.414l10.293 10.293 1.414-1.414L8.414 7H17z" />
           </svg>
-          <p className="text-white">see more</p>
+          <p>see more</p>
         </a>
         <dialog id="my_modal_2" className="modal">
-          <div className="modal-box overflow-y-auto left-[-5px] relative  mt-10 mb-10 max-w-screen w-[90vw] max-h-[800px]  py-20">
+          <div className="modal-box overflow-y-auto left-[-5px] relative  mt-10 mb-10 max-w-screen  py-20">
             <form method="dialog">
-              <button className="btn btn-sm btn-circle btn-ghost absolute right-2 top-2">
+              <button className="btn  btn-circle btn-ghost absolute right-3 top-2 ext-white ">
                 ✕
               </button>
             </form>
