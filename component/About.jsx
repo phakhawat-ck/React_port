@@ -5,7 +5,7 @@ import { Skills } from "./Skills";
 export const About = () => {
   return (
     <div className="text-white">
-      <div className="about my-10 line_center">
+      <div className="about my-10 line_left">
         <p className="text-white/70 text-[15px] mb-4 uppercase">
           More About Me
         </p>
@@ -30,7 +30,10 @@ export const About = () => {
           </p>
         </div>
       </div>
-      <div className="skills line_center">
+
+{/* SKILLS */}
+
+      <div className="skills line_left">
         <p className="text-white/70 text-[15px] mb-4 uppercase">skills</p>
         <div className="text-2xl lg:text-3xl">
           <span >My &nbsp;</span>

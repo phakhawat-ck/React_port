@@ -37,14 +37,14 @@ export const Skills = () => {
   return (
     <div className=" px-6 space-y-6 uppercase tracking-wider lg:mb-20 skills">
       <div>
-        <h3 className="text-xs  font-semibold mb-2 ">LANGUAGES AND TOOLS</h3>
+        <h3 className="text-xs  font-semibold mb-2 tracking-widest">LANGUAGES AND TOOLS</h3>
         <div className="flex gap-4 flex-wrap">
           {renderIcons(languagesAndTools)}
         </div>
       </div>
 
       <div>
-        <h3 className="text-xs font-semibold mb-2">LIBRARIES AND FRAMEWORKS</h3>
+        <h3 className="text-xs font-semibold mb-2 tracking-widest">LIBRARIES AND FRAMEWORKS</h3>
         <div className="flex gap-4 flex-wrap">
           {renderIcons(librariesAndFrameworks)}
         </div>
@@ -52,11 +52,11 @@ export const Skills = () => {
 
       <div className="flex gap-10 ">
         <div className="db">
-          <h3 className="text-xs font-semibold mb-2">DATABASES</h3>
+          <h3 className="text-xs font-semibold mb-2 tracking-widest">DATABASES</h3>
           <div className="flex gap-4 flex-wrap">{renderIcons(databases)}</div>
         </div>
         <div className="ot opacity-35">
-          <h3 className="text-xs font-semibold mb-2">Other</h3>
+          <h3 className="text-xs font-semibold mb-2 tracking-widest">Other</h3>
           <div className="flex gap-4 flex-wrap">{renderIcons(other)}</div>
         </div>
       </div>

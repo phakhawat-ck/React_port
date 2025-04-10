@@ -11,12 +11,12 @@
 
 
 
-.line_center{
+.line_left{
     position: relative;
 }
 
 
-.line_center::after{
+.line_left::after{
     content: "";
     position: absolute;
     right: 0;
@@ -38,3 +38,6 @@
       height: 97%;
     }
   }
+
+
+

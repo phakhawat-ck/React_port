@@ -54,14 +54,13 @@ const ProjectCard = ({ project }) => {
           rel="noopener noreferrer"
           data-tooltip-id={`tooltip-${project.id}`}
           data-tooltip-content="Github"
-          
-          data-tooltip-float="true" // ✅ follow mouse
+          data-tooltip-float="true"
         >
           <Tooltip
             id={`tooltip-${project.id}`}
             style={{
-              backgroundColor: "#1818189d", // สีพื้นหลัง
-              color: "#fff", // สีตัวอักษร
+              backgroundColor: "#1818189d", 
+              color: "#fff", 
               padding: "8px 12px",
               borderRadius: "8px",
               zIndex: 9999,
@@ -75,7 +74,6 @@ const ProjectCard = ({ project }) => {
         </a>
       </div>
 
-      {/* Details Right */}
       <div className="flex flex-col justify-center">
         <h2 className="text-xl font-bold mb-2 text-white uppercase tracking-widest ">
           {project.name}
@@ -100,10 +98,19 @@ const ProjectCard = ({ project }) => {
   );
 };
 
-const ProjectGrid = () => {
+const ProjectGrid = ({ inModal = false ,limit  }) => {
+  const displayProjects = inModal
+    ? projects
+    : limit
+    ? projects.slice(0, limit)
+    : projects;
   return (
-    <div className="grid gap-10">
-      {projects.map((project, idx) => (
+    <div
+      className={`grid gap-10 ${
+        inModal ? "grid-cols-1 md:grid-cols-2 lg:grid-cols-3" : ""
+      }`}
+    >
+      {displayProjects.map((project, idx) => (
         <ProjectCard key={idx} project={project} />
       ))}
     </div>

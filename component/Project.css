@@ -1,0 +1,18 @@
+#my_modal_2 {
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.664);
+    transition: 0.3s;
+}
+
+.modal-box {
+    background-color: #000000f8;
+    border-radius: 20px;
+    border: 1px solid rgba(38, 38, 38, .7);
+    box-shadow: 0 0 5px #ffffff11, 0 0 20px #ffffff71;
+}
+
+.btn:hover {
+    background-color: rgba(255, 255, 255, 0.847);
+    color: rgb(0, 0, 0);
+    transition: all 0.3s;
+}

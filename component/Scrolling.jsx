@@ -23,7 +23,7 @@ export const Scrolling = () => {
           gradient={false}
           gradientColor="#0a0a0a"
           gradientWidth={"100px"}
-          className="font-bold uppercase"
+          className="font-bold uppercase overflow-hidden"
         >
           <div style={{ display: "flex", alignItems: "center" }}>
             {items.map((item, index) => (
