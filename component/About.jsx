@@ -4,7 +4,7 @@ import "../src/App.css";
 import { Skills } from "./Skills";
 export const About = () => {
   return (
-    <div className="">
+    <div className="text-white">
       <div className="about my-10 line_center">
         <p className="text-white/70 text-[15px] mb-4 uppercase">
           More About Me

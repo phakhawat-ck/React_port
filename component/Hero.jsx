@@ -22,10 +22,10 @@ export const Hero = () => {
   ];
   return (
     <div>
-      <div className="font-light  flex justify-center pt-50 lg:py-30 flex-col items-center">
+      <div className="font-light  flex justify-center pt-50 lg:py-30 flex-col items-center text-white">
         <div className="text-c w-70 lg:w-2xl block p-5">
           <motion.h1
-            className="text-4xl lg:text-5xl  bg-gradient-to-r from-neutral-900 via-slate-500 to-neutral-500 bg-[200%_auto] bg-clip-text leading-tight text-transparent dark:from-neutral-100 dark:via-slate-400 dark:to-neutral-400"
+            className="text-4xl lg:text-5xl "
             initial={{ opacity: 0, x: -100 }} // เริ่มต้น
             animate={{ opacity: 1, x: 0 }} // ตอนแสดง
             transition={{ duration: 0.8 }} // ความเร็ว
@@ -39,7 +39,7 @@ export const Hero = () => {
                 wrapper="span"
                 speed={1}
                 repeat={Infinity}
-                className="font-light text-4xl lg:text-6xl"
+                className="font-light text-4xl lg:text-6xl "
               />
               <br />
               <TypeAnimation
@@ -76,7 +76,7 @@ export const Hero = () => {
               Computer Science Student{" "}
             </motion.span>
             <motion.p
-              className="text-sm"
+              className="text-sm text-white"
               initial={{ opacity: 0, x: 120 }} // เริ่มต้น
               animate={{ opacity: 1, x: 0 }} // ตอนแสดง
               transition={{ duration: 1.3 }} // ความเร็ว
