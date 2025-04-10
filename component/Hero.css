@@ -60,8 +60,8 @@
     border: 1px solid rgba(38, 38, 38, .7);
 }
 
-.skills img:hover {
-    filter: drop-shadow(0 0 3px #ffffff) drop-shadow(0 0 1px #ffffff);
+.skills .skill-img:hover {
+    box-shadow: 0 0 5px #ffffff,0 0 10px #190f3d;
 }
 
 .project {
@@ -87,7 +87,7 @@
     }
 }
 
-
+/* Scrolling */
 .icon-item {
     opacity: 0.2;
     transition: transform 0.3s ease, color 0.3s ease;
@@ -96,6 +96,8 @@
 .icon-item:hover {
     opacity: 1;
     color: #fff;
-    filter: drop-shadow(0 2px 1px #000000) drop-shadow(0 0 1px #d1d1d1);
-    transform: scale(1);
+    
+    transform: scale(1.1);
 }
+
+

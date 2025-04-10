@@ -4,10 +4,10 @@ import { motion } from "framer-motion";
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope, faLocationArrow } from "@fortawesome/free-solid-svg-icons";
+import { faEnvelope, faEarthAsia } from "@fortawesome/free-solid-svg-icons";
 
 export const Hero = () => {
-  const name = " Phakhawat";
+  const name = " Phakhawat.";
   const links = [
     {
       href: "mailto: phakhawat.ck@gmail.com",
@@ -35,7 +35,7 @@ export const Hero = () => {
           <div className="flex mb-5">
             <span className="text font-light  lg:text-5xl h-30">
               <TypeAnimation
-                sequence={["", 1000, name, 5000]}
+                sequence={[name]}
                 wrapper="span"
                 speed={1}
                 repeat={Infinity}
@@ -72,8 +72,7 @@ export const Hero = () => {
               animate={{ opacity: 1, x: 0 }} // ตอนแสดง
               transition={{ duration: 0.7 }} // ความเร็ว
             >
-              {" "}
-              Computer Science Student{" "}
+              Computer Science student
             </motion.span>
             <motion.p
               className="text-sm text-white"
@@ -81,7 +80,7 @@ export const Hero = () => {
               animate={{ opacity: 1, x: 0 }} // ตอนแสดง
               transition={{ duration: 1.3 }} // ความเร็ว
             >
-              Live in Bangkok, Thailand
+              <FontAwesomeIcon icon={faEarthAsia} /> Live in Bangkok, Thailand
             </motion.p>
           </motion.p>
           <div className="link_icon mt-4 flex mx-6 ">
@@ -101,7 +100,6 @@ export const Hero = () => {
         </div>
       </div>
     </div>
-    // </div>
   );
 };
 

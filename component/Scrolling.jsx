@@ -3,6 +3,18 @@ import Marquee from "react-fast-marquee";
 import "./Hero.css";
 
 export const Scrolling = () => {
+  const items = [
+    { name: "HTML", src: "assets/html-5-svgrepo-com.svg" },
+    { name: "CSS", src: "assets/css-3-svgrepo-com.svg" },
+    { name: "JavaScript", src: "assets/javascript.svg" },
+    { name: "TypeScript", src: "assets/typescript-icon-svgrepo-com.svg" },
+    { name: "Tailwind CSS", src: "assets/tailwind-svgrepo-com.svg" },
+    { name: "Vercel", src: "assets/vercel-fill-svgrepo-com.svg" },
+    { name: "Figma", src: "assets/figma-svgrepo-com.svg" },
+    { name: "Firebase", src: "assets/firebase-svgrepo-com.svg" },
+    { name: "Vite", src: "assets/vite-svgrepo-com.svg" },
+    { name: "React", src: "assets/react.svg" },
+  ];
   return (
     <div className="text-2xl  justify-center my-5 block ">
       <div className="text-2xl lg:text-3xl text-neutral-700 w-full ">
@@ -14,18 +26,7 @@ export const Scrolling = () => {
           className="font-bold uppercase"
         >
           <div style={{ display: "flex", alignItems: "center" }}>
-            {[
-              { name: "HTML", src: "assets/html-5-svgrepo-com.svg" },
-              { name: "CSS", src: "assets/css-3-svgrepo-com.svg" },
-              { name: "JavaScript", src: "assets/javascript.svg" },
-              { name: "TypeScript", src: "assets/typescript-icon-svgrepo-com.svg" },
-              { name: "Tailwind CSS", src: "assets/tailwind-svgrepo-com.svg" },
-              { name: "Vercel", src: "assets/vercel-fill-svgrepo-com.svg" },
-              { name: "Figma", src: "assets/figma-svgrepo-com.svg" },
-              { name: "Firebase", src: "assets/firebase-svgrepo-com.svg" },
-              { name: "Vite", src: "assets/vite-svgrepo-com.svg" },
-              { name: "React", src: "assets/react.svg" },
-            ].map((item, index) => (
+            {items.map((item, index) => (
               <div
                 key={index}
                 style={{
