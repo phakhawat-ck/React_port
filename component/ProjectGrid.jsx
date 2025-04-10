@@ -22,7 +22,7 @@ const projects = [
       "A personal journey through Frontend Roadmap A collection of mini-projects to improve my skills in HTML, CSS, and JavaScript.",
     challenge:
       "I’m currently learning JavaScript on my own, so this project was a fun way to practice things like working with the DOM and making the UI interactive. It was a bit tricky at first, but it really helped me understand how everything connects.",
-    framwork: ["HTML", "CSS", "❔JAVA SCRIPT"],
+    framwork: ["HTML", "CSS", "❔JAVA SCRIPT",],
     tag: "#roadmap.sh",
     tag_href: "https://roadmap.sh/frontend/projects",
   },
@@ -34,7 +34,7 @@ const projects = [
       "This is my personal portfolio project, built using React and Tailwind CSS. It's my very first experience working with both technologies",
     challenge:
       "This portfolio was my first project using React with Tailwind CSS. I faced challenges in component structure and styling with utility classes, but it helped me learn how to build reusable components and improve my frontend skills.",
-    framwork: ["React", "CSS", "Tailwind", "Vercel"],
+    framwork: ["React", "CSS", "Tailwind", "Vercel","Daisyui"],
     tag: "#website",
     tag_href: "https://phakhawat.vercel.app/",
   },
@@ -87,8 +87,8 @@ const ProjectCard = ({ project }) => {
             <a
               key={index}
               href="#"
-              className="px-3 py-1  text-sm rounded-xl transition project "
-            >
+              className="px-3 py-1  text-sm rounded-xl transition project lowercase"
+            >#
               {fw}
             </a>
           ))}

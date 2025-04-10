@@ -13,6 +13,7 @@ export const Skills = () => {
   const librariesAndFrameworks = [
     { tooltip: "React", imgSrc: "/assets/react.svg" },
     { tooltip: "Tailwind CSS", imgSrc: "/assets/tailwind-svgrepo-com.svg" },
+    { tooltip: "Daisyui", imgSrc: "/assets/daisyui-seeklogo36px.svg" },
   ];
 
   const databases = [];
@@ -55,7 +56,7 @@ export const Skills = () => {
           <h3 className="text-xs font-semibold mb-2 tracking-widest">DATABASES</h3>
           <div className="flex gap-4 flex-wrap">{renderIcons(databases)}</div>
         </div>
-        <div className="ot opacity-35">
+        <div className="opacity-35">
           <h3 className="text-xs font-semibold mb-2 tracking-widest">Other</h3>
           <div className="flex gap-4 flex-wrap">{renderIcons(other)}</div>
         </div>
