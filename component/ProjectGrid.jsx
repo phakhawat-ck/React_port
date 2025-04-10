@@ -78,9 +78,9 @@ const ProjectCard = ({ project }) => {
         <h2 className="text-xl font-bold mb-2 text-white uppercase tracking-widest ">
           {project.name}
         </h2>
-        <h4 className="underline lg:ml-3"> Description:</h4>
+        <h4 className="underline lg:ml-3 text-white"> Description:</h4>
         <p className="text-white/70 mb-2 text-[13px]">{project.detel}</p>
-        <h4 className="underline lg:ml-3"> Challenges:</h4>
+        <h4 className="underline lg:ml-3 text-white"> Challenges:</h4>
         <p className="text-white/70 mb-2 text-[13px]">{project.challenge}</p>
         <div className="flex flex-wrap gap-2 relative">
           {project.framwork.map((fw, index) => (
