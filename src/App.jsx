@@ -2,11 +2,9 @@ import "./App.css";
 import { Hero } from "../component/Hero";
 import { Scrolling } from "../component/Scrolling";
 import { About } from "../component/About";
+import { Btn_totop } from "../component/Btn_totop";
 import { Project } from "../component/Project";
 import { Footers } from "../component/Footers";
-// import { Alerts } from "../components/Alerts";
-import { Btn_totop } from "../component/Btn_totop";
-import { BtnContact } from "../component/BtnContact";
 import FollowCursor from "../component/FollowCursor";
 function App() {
   return (
