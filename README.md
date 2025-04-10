@@ -26,9 +26,11 @@ Constructive feedback is always welcome!
 ### 🛠️ Technologies:
 - React
 - Tailwind CSS
+- Daisyui
 - Vite
 - Git & GitHub
 - Vercel (for deployment)
+
 
 ---
 
@@ -43,8 +45,9 @@ Feel free to explore the code and leave suggestions!
 ---
 ### Desktop
 <p align="center">
-  <img src="./Overview/mac/phakhawat.vercel.app_-front.png" width="800"/>
-  <img src="./Overview/mac/1.png" width="800"/>
+  <img src="./Overview/mac/main" width="800"/>
+  <img src="./Overview/mac/skill.png" width="800"/>
+  <img src="./Overview/mac/see more.png" width="800"/>
 </p>
 
 ### **Responsive**:
@@ -53,6 +56,8 @@ Feel free to explore the code and leave suggestions!
   <img src="./Overview/iphone/2.png" width="240"/>
   <img src="./Overview/iphone/3.png" width="240"/>
   <img src="./Overview/iphone/4.png" width="240"/>
+  <img src="./Overview/iphone/5.png" width="240"/>
+  <img src="./Overview/iphone/see more.png" width="240"/>
 </p>
 
 
