@@ -43,7 +43,7 @@ const projects = [
 const ProjectCard = ({ project }) => {
   return (
     <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4 p-4 project rounded-lg">
-      <p className="absolute top-[-26px] right-4 text-xs project px-3 py-1 rounded-t-lg lowercase tracking-widest">
+      <p className="absolute top-[-26px] right-4 text-xs project px-3 py-1 rounded-t-lg lowercase tracking-widest text-white">
         <a href={project.tag_href}>{project.tag}</a>
       </p>
       {/* Image Left */}
@@ -87,7 +87,7 @@ const ProjectCard = ({ project }) => {
             <a
               key={index}
               href="#"
-              className="px-3 py-1  text-sm rounded-xl transition project lowercase"
+              className="px-3 py-1  text-sm rounded-xl transition project lowercase text-white"
             >#
               {fw}
             </a>
