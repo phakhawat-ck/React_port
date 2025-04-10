@@ -8,16 +8,16 @@ export const Footers = () => {
           <div className="flex justify-center items-center">
             <div className="p-2">
               <BtnContact />
-              <p className="mt-1">Contact</p>
+              <p className="mt-1 text-white">Contact</p>
             </div>
           </div>
-          <div className=" flex flex-col  text-center lg:text-start">
-            <p className="uppercase ">sociel</p>
+          <div className=" flex flex-col  text-center lg:text-start ">
+            <p className="uppercase text-white">sociel</p>
             <ul className=" p-2 text-center lg:text-start lg:border-l-2 lg:ml-4 gap-2 ">
               <li >
                 <a
                   href="https://www.facebook.com/pukkawat2/"
-                  className="hover:text-black hover:bg-amber-50 transition p-1 flex justify-center lg:justify-start "
+                  className="hover:text-black hover:bg-amber-50 transition p-1 flex justify-center lg:justify-start text-white "
                 >
                   Facebook
                   <span class="relative flex size-1">
