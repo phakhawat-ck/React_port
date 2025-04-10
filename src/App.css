@@ -6,6 +6,11 @@
 
 :root{
     --color-p:rgb(179, 179, 179);
+    --color-border: rgba(59, 59, 59, 0.7);
+    --c-bg:rgba(26, 26, 26, 0.37);
+}
+html {
+  scroll-behavior: smooth;
 }
 
 

@@ -108,10 +108,10 @@
 }
 
 .modal-box {
-    background-color: #000000f8;
+    background-color: #00000094;
     border-radius: 20px;
     border: 1px solid rgba(38, 38, 38, .7);
-    box-shadow: 0 0 5px #ffffff11, 0 0 20px #ffffff71;
+    /* box-shadow: 0 0 5px #ffffff11, 0 0 20px #ffffff71; */
 }
 
 .btn {

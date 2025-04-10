@@ -1,6 +1,7 @@
 import React from "react";
 import "./Hero.css";
 import { motion } from "framer-motion";
+import { BtnContact } from "./BtnContact";
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
@@ -19,6 +20,7 @@ export const Hero = () => {
       icon: faGithub,
       tooltip: "GitHub",
     },
+    
   ];
   return (
     <div>
@@ -26,9 +28,9 @@ export const Hero = () => {
         <div className="text-c w-70 lg:w-2xl block p-5">
           <motion.h1
             className="text-4xl lg:text-5xl "
-            initial={{ opacity: 0, x: -100 }} // เริ่มต้น
-            animate={{ opacity: 1, x: 0 }} // ตอนแสดง
-            transition={{ duration: 0.8 }} // ความเร็ว
+            initial={{ opacity: 0, x: -100 }} 
+            animate={{ opacity: 1, x: 0 }} 
+            transition={{ duration: 0.8 }} 
           >
             Hello!,I'm
           </motion.h1>
@@ -61,24 +63,24 @@ export const Hero = () => {
 
           <motion.p
             className="text-lg lg:text-2xl "
-            initial={{ opacity: 0, x: -120 }} // เริ่มต้น
-            animate={{ opacity: 1, x: 0 }} // ตอนแสดง
-            transition={{ duration: 0.5 }} // ความเร็ว
+            initial={{ opacity: 0, x: -120 }} 
+            animate={{ opacity: 1, x: 0 }} 
+            transition={{ duration: 0.5 }} 
           >
             I am a fourth-year <br />
             <motion.span
               className="gradient-text"
-              initial={{ opacity: 0, x: 180 }} // เริ่มต้น
-              animate={{ opacity: 1, x: 0 }} // ตอนแสดง
-              transition={{ duration: 0.7 }} // ความเร็ว
+              initial={{ opacity: 0, x: 180 }} 
+              animate={{ opacity: 1, x: 0 }} 
+              transition={{ duration: 0.7 }} 
             >
               Computer Science student
             </motion.span>
             <motion.p
               className="text-sm text-white"
-              initial={{ opacity: 0, x: 120 }} // เริ่มต้น
-              animate={{ opacity: 1, x: 0 }} // ตอนแสดง
-              transition={{ duration: 1.3 }} // ความเร็ว
+              initial={{ opacity: 0, x: 120 }} 
+              animate={{ opacity: 1, x: 0 }} 
+              transition={{ duration: 1.3 }} 
             >
               <FontAwesomeIcon icon={faEarthAsia} /> Live in Bangkok, Thailand
             </motion.p>
@@ -96,6 +98,7 @@ export const Hero = () => {
                 <FontAwesomeIcon icon={link.icon} size="xl" className="icon" />
               </a>
             ))}
+            <BtnContact />
           </div>
         </div>
       </div>
