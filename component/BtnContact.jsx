@@ -125,7 +125,7 @@ export const BtnContact = () => {
                     >
                       <path d="M17 7V5H5v12h2V8.414l10.293 10.293 1.414-1.414L8.414 7H17z" />
                     </svg>
-                    <p>Send</p>
+                    <p className="text-white">Send</p>
                   </>
                 )}
               </button>

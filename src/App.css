@@ -44,5 +44,7 @@ html {
     }
   }
 
-
-
+  html {
+  scrollbar-width: none; /* ขนาด scrollbar */
+}
+  
