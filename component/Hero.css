@@ -1,11 +1,10 @@
-.gradient-text {
+/* =============================
+   Typography & Text Effects
+   ============================= */
+   .gradient-text {
     background: linear-gradient(15deg, #f472b6, rgb(233, 233, 233), #8b5cf6);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-}
-
-.hero-content {
-    border: 1px solid;
 }
 
 .text {
@@ -18,15 +17,24 @@
     filter: drop-shadow(0 0 1px #ffffff) drop-shadow(0 0 1px #ffffff);
 }
 
+/* =============================
+   Hero Section
+   ============================= */
+.hero-content {
+    border: 1px solid;
+}
+
+/* =============================
+   Icon Link Section
+   ============================= */
 .link_icon {
     display: flex;
 
     .icon {
-        color: rgb(170 170 170);
+        color: rgb(170, 170, 170);
     }
 
     a {
-        color: #ffffff;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -34,43 +42,47 @@
         height: 43px;
         margin: 0 5px;
         border-radius: 5px;
+        color: #ffffff;
         background-color: #1818189f;
+        border: 1px solid rgba(38, 38, 38, 0.7);
         transition: ease-in-out 0.3s;
-        border: 1px solid rgba(38, 38, 38, .7);
     }
 
     a:hover {
         transform: translateY(-10px) scale(1.2);
-        transition: all 0.3s;
-        filter: drop-shadow(0 0 3px #ffffff) drop-shadow(0 0 1px #ffffff);
         background-color: #ffffff;
+        transition: all 0.3s;
 
         .icon {
             color: #1818189f;
-
         }
     }
 }
 
+/* =============================
+   Skill Section
+   ============================= */
 .skill-img {
     width: 43px;
     height: 43px;
     border-radius: 5px;
     background-color: #1818189f;
-    border: 1px solid rgba(38, 38, 38, .7);
+    border: 1px solid rgba(38, 38, 38, 0.7);
 }
 
 .skills .skill-img:hover {
-    box-shadow: 0 0 5px #ffffff,0 0 10px #190f3d;
+    box-shadow: 0 0 5px #ffffff, 0 0 10px #190f3d;
 }
 
+/* =============================
+   Project Card
+   ============================= */
 .project {
     background-color: #1818184d;
-    border: 1px solid rgba(38, 38, 38, .7);
+    border: 1px solid rgba(38, 38, 38, 0.7);
 
     img {
         transition: 0.5s;
-
     }
 
     img:hover {
@@ -87,7 +99,9 @@
     }
 }
 
-/* Scrolling */
+/* =============================
+   Scrolling Icons
+   ============================= */
 .icon-item {
     opacity: 0.2;
     transition: transform 0.3s ease, color 0.3s ease;
@@ -99,8 +113,9 @@
     transform: scale(1.1);
 }
 
-
-/* Project See all  model box */
+/* =============================
+   Modal - Project "See All"
+   ============================= */
 #my_modal_2 {
     margin: 0;
     background-color: rgba(0, 0, 0, 0.664);
@@ -110,25 +125,32 @@
 .modal-box {
     background-color: #00000094;
     border-radius: 20px;
-    border: 1px solid rgba(38, 38, 38, .7);
-    /* box-shadow: 0 0 5px #ffffff11, 0 0 20px #ffffff71; */
+    border: 1px solid rgba(38, 38, 38, 0.7);
+    /* Optional: Soft Glow
+    box-shadow: 0 0 5px #ffffff11, 0 0 20px #ffffff71;
+    */
 }
 
+/* =============================
+   Button
+   ============================= */
 .btn {
     padding: 10px;
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
-    svg{fill: rgba(255, 255, 255, 0.847);}
 
+    svg {
+        fill: rgba(255, 255, 255, 0.847);
+    }
 }
-
 
 .btn:hover {
     background-color: rgba(255, 255, 255, 0.847);
-    transition: all 0.3s;
     color: #000000fa;
-    svg{
-        transition: all 0.3s;
+    transition: all 0.3s;
+
+    svg {
         fill: rgb(0, 0, 0);
+        transition: all 0.3s;
     }
 }
