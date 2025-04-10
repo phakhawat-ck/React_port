@@ -27,7 +27,7 @@ export const Project = () => {
           >
             <path d="M17 7V5H5v12h2V8.414l10.293 10.293 1.414-1.414L8.414 7H17z" />
           </svg>
-          <p>see more</p>
+          <p className="text-white">see more</p>
         </a>
         <dialog id="my_modal_2" className="modal">
           <div className="modal-box overflow-y-auto left-[-5px] relative  mt-10 mb-10 max-w-screen w-[90vw] max-h-[800px]  py-20">

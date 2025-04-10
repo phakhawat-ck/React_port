@@ -2,9 +2,9 @@ import React from "react";
 import { BtnContact } from "./BtnContact";
 export const Footers = () => {
   return (
-    <div className="flex justify-center border-t-2 border-[var(--color-border)] bg-[var(--c-bg)] p-5 cursor-none">
+    <div className="flex justify-center border-t-2 border-[var(--color-border)] bg-[var(--c-bg)] p-5 cursor-none ">
       <div className=" ">
-        <div className="grid grid-cols-1 lg:grid-cols-2  gap-3 pt-2 ">
+        <div className="grid grid-cols-1 lg:grid-cols-2  gap-3 pt-2 text-white">
           <div className="flex justify-center items-center">
             <div className="p-2">
               <BtnContact />
@@ -17,7 +17,7 @@ export const Footers = () => {
               <li >
                 <a
                   href="https://www.facebook.com/pukkawat2/"
-                  className="hover:text-black hover:bg-amber-50 transition p-1 flex justify-center lg:justify-start"
+                  className="hover:text-black hover:bg-amber-50 transition p-1 flex justify-center lg:justify-start "
                 >
                   Facebook
                   <span class="relative flex size-1">
