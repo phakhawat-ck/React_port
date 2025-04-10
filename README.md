@@ -45,9 +45,9 @@ Feel free to explore the code and leave suggestions!
 ---
 ### Desktop
 <p align="center">
-  <img src="./Overview/mac/main" width="800"/>
-  <img src="./Overview/mac/skill.png" width="800"/>
-  <img src="./Overview/mac/see more.png" width="800"/>
+  <img src="./Overview/mac/main.png" width="600"/>
+  <img src="./Overview/mac/skill.png" width="600"/>
+  <img src="./Overview/mac/see more.png" width="600"/>
 </p>
 
 ### **Responsive**:
