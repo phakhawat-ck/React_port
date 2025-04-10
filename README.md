@@ -14,7 +14,7 @@ This project marks my first time working with React and Tailwind CSS
 While the code may not be perfect yet, I'm continuously learning and actively improving it
 
 📌 **Note:** This is my first React project, self-learned from online resources and tutorials  
-AI tools (e.g. ChatGPT) were used in less than 5% of the process — mainly for guidance and explanation
+AI tools (e.g. ChatGPT) were used in less than 10% of the process — mainly for guidance and explanation
 
 ---
 
