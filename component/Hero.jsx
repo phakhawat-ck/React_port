@@ -35,7 +35,7 @@ export const Hero = () => {
           <div className="flex mb-5">
             <span className="text font-light  lg:text-5xl h-30">
               <TypeAnimation
-                sequence={[name]}
+                sequence={[name,2000,]}
                 wrapper="span"
                 speed={1}
                 repeat={Infinity}
