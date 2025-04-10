@@ -24,13 +24,13 @@ export const Skills = () => {
     arr.map((item, index) => (
       <div
         key={index}
-        className="tooltip transition duration-200 hover:scale-110 skill-img flex justify-center items-center"
+        className="tooltip transition duration-200 hover:scale-110 skill-img flex justify-center items-center "
         data-tip={item.tooltip}
       >
         <img
           src={item.imgSrc}
           alt={item.tooltip}
-          className="w-8 h-8 object-contain"
+          className="w-8 h-8 object-contain "
         />
       </div>
     ));

@@ -10,7 +10,7 @@ export const Btn_totop = () => {
   };
 
   return (
-    <div className="fixed bottom-5 right-5 ">
+    <div className="fixed bottom-5 right-5 animate-bounce ">
       <button
         onClick={scrollToTop}
         className="inline-block transition hover:shadow-lg hover:shadow-amber-50 rounded-full"

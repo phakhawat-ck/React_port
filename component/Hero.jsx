@@ -32,7 +32,7 @@ export const Hero = () => {
             animate={{ opacity: 1, x: 0 }} 
             transition={{ duration: 0.8 }} 
           >
-            Hello!,I'm
+            Hello!,I'm 
           </motion.h1>
           <div className="flex mb-5">
             <span className="text font-light  lg:text-5xl h-30">
