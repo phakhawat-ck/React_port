@@ -3,6 +3,9 @@
 * {
     font-family: "Outfit", sans-serif;
 }
+*,*:hover{
+  scrollbar-color: auto;
+}
 
 :root{
     --color-p:rgb(179, 179, 179);
@@ -44,7 +47,19 @@ html {
     }
   }
 
-  html {
-  scrollbar-width: none; /* ขนาด scrollbar */
+  ::-webkit-scrollbar {
+    width: 4px;              
 }
-  
+
+::-webkit-scrollbar-track {
+    background: #1e1e1e;      
+}
+
+::-webkit-scrollbar-thumb {
+    background: #453075;      
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #ffffff;    
+}
