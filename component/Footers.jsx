@@ -12,7 +12,7 @@ export const Footers = () => {
             </div>
           </div>
           <div className=" flex flex-col  text-center lg:text-start ">
-            <p className="uppercase text-white">sociel</p>
+            <p className="uppercase text-white font-bold">sociel</p>
             <ul className=" p-2 text-center lg:text-start lg:border-l-2 lg:ml-4 gap-2 ">
               <li >
                 <a
