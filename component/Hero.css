@@ -2,7 +2,13 @@
    Typography & Text Effects
    ============================= */
    .gradient-text {
-    background: linear-gradient(15deg, #f472b6, rgb(233, 233, 233), #8b5cf6);
+    background: linear-gradient(14deg, #f472b6, rgb(233, 233, 233), #8b5cf6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.g-text{
+    font-weight: 700;
+    background: -webkit-linear-gradient(#eee, #333);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

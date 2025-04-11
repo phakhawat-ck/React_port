@@ -4,21 +4,21 @@ import "../../src/App.jsx";
 import { Skills } from "./Skills.jsx";
 export const About = () => {
   return (
-    <div className="text-white">
-      <div className="about my-10 line_left">
-        <p className="text-white/70 text-[15px] mb-4 uppercase">
+    <div className="text-white ">
+      <div className="my-10 line_left">
+        <p className="text-white/70 text-[15px] mb-4 uppercase g-text">
           More About Me
         </p>
-        <div className="text-2xl lg:text-3xl">
-          <span>Hi there! I'm</span>
-          <span className="mx-2 text-3xl text">&nbsp;Phakhawat</span>
+        <div className="text-2xl lg:text-3xl ">
+          <span >Hi there! I'm</span>
+          <span className="mx-2 text-3xl text ">&nbsp;Phakhawat</span>
         </div>
-        <div className="text-white/70 mt-5">
+        <div className="text-white/70 mt-5 ">
           <p className="mb-4 tracking-wider" data-aos="fade-right"data-aos-duration="1200">
             I'm Phakhawat Chomkul, currently a 4th-year Computer Science student at <br />
             <span className="font-bold"> Rajamangala University of Technology Krungthep (RMUTK).</span>
           </p>
-          <p className="mb-4 tracking-wider" data-aos="fade-right"data-aos-duration="1500">
+          <p className="mb-4 tracking-wider " data-aos="fade-right"data-aos-duration="1500">
             I'm constantly improving my skills every day. Although I’m still
             learning, I enjoy hands-on experience by building projects using
             HTML, CSS, and JavaScript to strengthen my fundamentals.
@@ -34,7 +34,7 @@ export const About = () => {
 {/* SKILLS */}
 
       <div className="skills line_left">
-        <p className="text-white/70 text-[15px] mb-4 uppercase">skills</p>
+        <p className="text-white/70 text-[15px] mb-4 uppercase g-text">skills</p>
         <div className="text-2xl lg:text-3xl">
           <span >My &nbsp;</span>
           <span className="mx-2 text-3xl text ">Skills</span>

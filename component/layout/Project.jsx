@@ -4,7 +4,7 @@ export const Project = () => {
   return (
     <div>
       <div className="about my-10 line_left text-white">
-        <p className="text-white/70 text-[15px] mb-4 uppercase ">PROJECTS</p>
+        <p className="text-white/70 text-[15px] mb-4 uppercase g-text">PROJECTS</p>
         <div className="text-2xl lg:text-3xl">
           <span>This is My</span>
           <span className="mx-2 text-3xl text">Project</span>
