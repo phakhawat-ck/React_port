@@ -1,7 +1,7 @@
 import React from "react";
-import "./Hero.css";
-import "../src/App.css";
-import { Skills } from "./Skills";
+import "../Hero.css";
+import "../../src/App.jsx";
+import { Skills } from "./Skills.jsx";
 export const About = () => {
   return (
     <div className="text-white">
@@ -14,16 +14,16 @@ export const About = () => {
           <span className="mx-2 text-3xl text">&nbsp;Phakhawat</span>
         </div>
         <div className="text-white/70 mt-5">
-          <p className="mb-4 tracking-wider">
+          <p className="mb-4 tracking-wider" data-aos="fade-right"data-aos-duration="1200">
             I'm Phakhawat Chomkul, currently a 4th-year Computer Science student at <br />
             <span className="font-bold"> Rajamangala University of Technology Krungthep (RMUTK).</span>
           </p>
-          <p className="mb-4 tracking-wider">
+          <p className="mb-4 tracking-wider" data-aos="fade-right"data-aos-duration="1500">
             I'm constantly improving my skills every day. Although I’m still
             learning, I enjoy hands-on experience by building projects using
             HTML, CSS, and JavaScript to strengthen my fundamentals.
           </p>
-          <p className="tracking-wider">
+          <p className="tracking-wider " data-aos="fade-right"data-aos-duration="1700">
             I'm especially interested in frontend development and love exploring
             tools like React and Tailwind CSS. I may not be perfect yet, but I'm
             passionate, eager to learn, and always moving forward.
@@ -41,7 +41,7 @@ export const About = () => {
         </div>
 
         <div className="text-white/70 mt-5">
-          <div className="my-6">
+          <div className="my-6 " data-aos="fade-right"data-aos-duration="1200">
             I’m currently on a self-taught journey in web development. Most of
             my skills are at the Beginner to Basic level, but I'm constantly
             learning and building projects to grow. I enjoy turning ideas into

@@ -15,7 +15,7 @@ export const BtnContact = () => {
 
   return (
     <>
-      {/* ปุ่มเปิด Modal */}
+      {/* btn open Modal */}
       <button
         data-tooltip-id={`tooltip-btn`}
         data-tooltip-content="Contact"

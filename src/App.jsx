@@ -1,12 +1,22 @@
 import "./App.css";
 import { Hero } from "../component/Hero";
 import { Scrolling } from "../component/Scrolling";
-import { About } from "../component/About";
-import { Btn_totop } from "../component/Btn_totop";
-import { Project } from "../component/Project";
-import { Footers } from "../component/Footers";
-import FollowCursor from "../component/FollowCursor";
+import { About } from "../component/layout/About";
+import { Btn_totop } from "../component/common/Btn_totop";
+import { Project } from "../component/layout/Project";
+import { Footers } from "../component/layout/Footers";
+import FollowCursor from "../component/common/FollowCursor";
+// AOS
+import React, { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration: 800,
+      once: false,
+    });
+  }, []);
   return (
     <>
       <FollowCursor />

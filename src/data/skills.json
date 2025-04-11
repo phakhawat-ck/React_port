@@ -1,0 +1,19 @@
+{
+    "languagesAndTools": [
+      { "tooltip": "HTML", "imgSrc": "/assets/html-5-svgrepo-com.svg" },
+      { "tooltip": "CSS", "imgSrc": "/assets/css-3-svgrepo-com.svg" },
+      { "tooltip": "JavaScript", "imgSrc": "/assets/javascript.svg" },
+      { "tooltip": "Vite", "imgSrc": "/assets/vite-svgrepo-com.svg" },
+      { "tooltip": "Figma", "imgSrc": "/assets/figma-svgrepo-com.svg" },
+      { "tooltip": "Vercel", "imgSrc": "/assets/vercel-fill-svgrepo-com.svg" },
+      { "tooltip": "Firebase", "imgSrc": "/assets/firebase-svgrepo-com.svg" }
+    ],
+    "librariesAndFrameworks": [
+      { "tooltip": "React", "imgSrc": "/assets/react.svg" },
+      { "tooltip": "Tailwind CSS", "imgSrc": "/assets/tailwind-svgrepo-com.svg" },
+      { "tooltip": "Daisyui", "imgSrc": "/assets/daisyui-seeklogo36px.svg" }
+    ],
+    "databases": [],
+    "other": []
+  }
+  

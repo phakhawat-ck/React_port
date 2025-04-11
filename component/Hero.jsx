@@ -1,7 +1,6 @@
-import React from "react";
 import "./Hero.css";
 import { motion } from "framer-motion";
-import { BtnContact } from "./BtnContact";
+import { BtnContact } from "./common/BtnContact";
 import { TypeAnimation } from "react-type-animation";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";

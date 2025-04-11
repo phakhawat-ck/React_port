@@ -1,48 +1,11 @@
-import React from "react";
 import { Tooltip } from "react-tooltip";
 import "react-tooltip/dist/react-tooltip.css";
-const projects = [
-  {
-    name: "CLONE WEB Smartmag",
-    href: "https://github.com/phakhawat-ck/Frontend_cloneweb/tree/main/Smartmag",
-    imgSrc: "/assets/overview/S.png",
-    detel:
-      "A static clone of the Smartmag magazine layout built with pure HTML and CSS. This was my first hands-on project focused on practicing CSS Grid.",
-    challenge:
-      "CSS class naming was inconsistent. I'm improving this by learning BEM and utility-first CSS for cleaner, maintainable code.",
-    framwork: ["HTML", "CSS"],
-    tag: "#clone web ",
-    tag_href: "https://smartmag-pbt.blogspot.com/",
-  },
-  {
-    name: "Frontend Projects",
-    href: "https://github.com/phakhawat-ck/roadmap.sh-section",
-    imgSrc: "/assets/overview/roadmap.png",
-    detel:
-      "A personal journey through Frontend Roadmap A collection of mini-projects to improve my skills in HTML, CSS, and JavaScript.",
-    challenge:
-      "I’m currently learning JavaScript on my own, so this project was a fun way to practice things like working with the DOM and making the UI interactive. It was a bit tricky at first, but it really helped me understand how everything connects.",
-    framwork: ["HTML", "CSS", "❔JAVA SCRIPT",],
-    tag: "#roadmap.sh",
-    tag_href: "https://roadmap.sh/frontend/projects",
-  },
-  {
-    name: "React Portfolio",
-    href: "https://github.com/phakhawat-ck/React_port",
-    imgSrc: "/assets/overview/port.png",
-    detel:
-      "This is my personal portfolio project, built using React and Tailwind CSS. It's my very first experience working with both technologies",
-    challenge:
-      "This portfolio was my first project using React with Tailwind CSS. I faced challenges in component structure and styling with utility classes, but it helped me learn how to build reusable components and improve my frontend skills.",
-    framwork: ["React", "CSS", "Tailwind", "Vercel","Daisyui"],
-    tag: "#website",
-    tag_href: "https://phakhawat.vercel.app/",
-  },
-];
+import projects from "../../src/data/projects.json";
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4 p-4 project rounded-lg">
+    <div className="relative grid grid-cols-1 md:grid-cols-2 gap-4 p-4 project rounded-lg" data-aos="fade-up"
+    data-aos-anchor-placement="center-bottom">
       <p className="absolute top-[-26px] right-4 text-xs project px-3 py-1 rounded-t-lg lowercase tracking-widest text-white">
         <a href={project.tag_href}>{project.tag}</a>
       </p>

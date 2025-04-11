@@ -1,5 +1,4 @@
-import React from "react";
-import { BtnContact } from "./BtnContact";
+import { BtnContact } from "../common/BtnContact";
 export const Footers = () => {
   return (
     <div className="flex justify-center border-t-2 border-[var(--color-border)] bg-[var(--c-bg)] p-5 cursor-none ">

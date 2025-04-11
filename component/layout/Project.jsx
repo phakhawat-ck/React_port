@@ -1,6 +1,5 @@
-import React from "react";
 import ProjectGrid from "./ProjectGrid";
-import "./Hero.css";
+import "../Hero.css";
 export const Project = () => {
   return (
     <div>
