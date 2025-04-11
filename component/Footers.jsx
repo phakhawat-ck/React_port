@@ -34,7 +34,7 @@ export const Footers = () => {
           <button class="">
             <span class="block animate-bounce mx-3 hover:animate-spin">❤️</span>
           </button>
-          by <span class="text-white"> Phakhawat Chomnkul</span>
+          by <span class="text-white"> Phakhawat Chomkul</span>
         </p>
       </div>
     </div>
