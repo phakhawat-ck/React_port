@@ -1,4 +1,20 @@
-# React Portfolio
+<div align="center">
+
+![Banner](https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=React%20Portfolio&fontSize=60&animation=fadeIn&fontAlignY=35 )
+
+
+<p align="center">
+  <a href="#features">Features</a> •
+  <a href="#demo">Demo</a> •
+  <a href="#screenshots">Screenshots</a> •
+  <a href="#installation">Installation</a> •
+  <a href="#tech-stack">Tech Stack</a>
+</p>
+
+[![GitHub license](https://img.shields.io/github/license/lohitkolluri/Portfolio?style=flat-square)](LICENSE)
+[![Website](https://img.shields.io/website?style=flat-square&url=https%3A%2F%2Fportfolio-lohit.vercel.app)](https://phakhawat.vercel.app/)
+[![Made with React](https://img.shields.io/badge/Made%20with-React-61DAFB?style=flat-square&logo=react)](https://reactjs.org)
+
 
 This is my personal portfolio project, built using **React** and **Tailwind CSS**
 It's my very first experience working with both technologies 
@@ -23,13 +39,28 @@ AI tools (e.g. ChatGPT) were used in less than 15% of the process — mainly for
 
 ---
 
-### 🛠️ Technologies:
-- React
-- Tailwind CSS
-- DaisyUI
-- Vite
-- Git & GitHub
-- Vercel (for deployment)
+## 💻 Tech Stack
+
+<table align="center">
+  <tr>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=react" width="48" height="48" alt="React" />
+      <br>React
+    </td>
+      <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vite" width="48" height="48" alt="Vite" />
+      <br>Vite
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=tailwind" width="48" height="48" alt="Tailwind CSS" />
+      <br>Tailwind CSS
+    </td>
+    <td align="center" width="96">
+      <img src="https://skillicons.dev/icons?i=vercel" width="48" height="48" alt="Vercel" />
+      <br>Vercel
+    </td>
+  </tr>
+</table>
 
 ---
 
@@ -59,3 +90,4 @@ Feel free to explore the code and leave suggestions!
   <img src="./Overview/iphone/5.png" width="240"/>
   <img src="./Overview/iphone/see more.png" width="240"/>
 </p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer" width="100%"/>
