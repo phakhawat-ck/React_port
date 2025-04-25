@@ -7,7 +7,6 @@
   <a href="#features">Features</a> •
   <a href="#demo">Demo</a> •
   <a href="#screenshots">Screenshots</a> •
-  <a href="#installation">Installation</a> •
   <a href="#tech-stack">Tech Stack</a>
 </p>
 
