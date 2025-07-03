@@ -16,7 +16,7 @@ export const Scrolling = () => {
   ];
   return (
     <div className="text-2xl  justify-center my-5 block ">
-      <div className="text-2xl lg:text-3xl text-neutral-700 w-full ">
+      <div className="text-2xl lg:text-3xl text-white w-full ">
         <Marquee
           speed={40}
           gradient={false}
