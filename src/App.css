@@ -63,3 +63,16 @@ html {
 ::-webkit-scrollbar-thumb:hover {
     background: #ffffff;    
 }
+
+
+.background {
+  position: fixed;
+  inset: 0; /* top, right, bottom, left = 0 */
+  z-index: -10;
+  background-color: #0a0a0a; /* tailwind's bg-neutral-950 */
+  background-image: radial-gradient(
+    ellipse 80% 60% at 50% -20%,
+    rgba(120, 119, 198, 0.3),
+    rgba(255, 255, 255, 0)
+  );
+}
