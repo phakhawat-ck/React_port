@@ -19,7 +19,6 @@ export const Hero = () => {
       icon: faGithub,
       tooltip: "GitHub",
     },
-    
   ];
   return (
     <div>
@@ -27,16 +26,16 @@ export const Hero = () => {
         <div className="text-c w-70 lg:w-2xl block p-5">
           <motion.h1
             className="text-4xl lg:text-5xl "
-            initial={{ opacity: 0, x: -100 }} 
-            animate={{ opacity: 1, x: 0 }} 
-            transition={{ duration: 0.8 }} 
+            initial={{ opacity: 0, x: -100 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
           >
-            Hello!,I'm 
+            Hello!,I'm
           </motion.h1>
           <div className="flex mb-5">
             <span className="text font-light  lg:text-5xl h-30">
               <TypeAnimation
-                sequence={[name,2000,]}
+                sequence={[name, 2000]}
                 wrapper="span"
                 speed={1}
                 repeat={Infinity}
@@ -47,10 +46,10 @@ export const Hero = () => {
                 sequence={[
                   "",
                   2000,
-                  " A pragmatic Frontend Developer.",
-                  2000,
-                  "Junior Frontend Developer.",
-                  2000,
+                  " Internship student",
+                  10000,
+                  // "Junior Frontend Developer.",
+                  // 2000,
                 ]}
                 wrapper="span"
                 speed={5}
@@ -62,24 +61,36 @@ export const Hero = () => {
 
           <motion.p
             className="text-lg lg:text-2xl "
-            initial={{ opacity: 0, x: -120 }} 
-            animate={{ opacity: 1, x: 0 }} 
-            transition={{ duration: 0.5 }} 
+            initial={{ opacity: 0, x: -120 }}
+            animate={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5 }}
           >
             I am a fourth-year <br />
             <motion.span
               className="gradient-text"
-              initial={{ opacity: 0, x: 180 }} 
-              animate={{ opacity: 1, x: 0 }} 
-              transition={{ duration: 0.7 }} 
+              initial={{ opacity: 0, x: 180 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.7 }}
             >
               Computer Science student
             </motion.span>
+            &nbsp;&nbsp;currently
+            <br />
+            <motion.span
+              className="repeat-text"
+              initial={{ opacity: 0, x: 180 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.7 }}
+            >
+              {" "}
+              &nbsp;seeking an internship&nbsp;
+            </motion.span>{" "}
+            opportunity.
             <motion.p
               className="text-sm text-white"
-              initial={{ opacity: 0, x: 120 }} 
-              animate={{ opacity: 1, x: 0 }} 
-              transition={{ duration: 1.3 }} 
+              initial={{ opacity: 0, x: 120 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 1.3 }}
             >
               <FontAwesomeIcon icon={faEarthAsia} /> Live in Bangkok, Thailand
             </motion.p>

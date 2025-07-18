@@ -13,7 +13,7 @@ export const Footers = () => {
           <div className=" flex flex-col  text-center lg:text-start ">
             <p className="uppercase text-white font-bold">sociel</p>
             <ul className=" p-2 text-center lg:text-start lg:border-l-2 lg:ml-4 gap-2 ">
-              <li >
+              <li>
                 <a
                   href="https://www.facebook.com/pukkawat2/"
                   className="hover:text-black hover:bg-amber-50 transition p-1 flex justify-center lg:justify-start text-white "
@@ -33,9 +33,15 @@ export const Footers = () => {
           <button class="">
             <span class="block animate-bounce mx-3 hover:animate-spin">❤️</span>
           </button>
-          by <span class="text-white"> Phakhawat Chomkul</span>
+          by <span class="text-white text-s"> Phakhawat Chomkul</span> 
+          
         </p>
+        <div className="flex justify-between mt-5 text-[13px]">
+            <span>© 2025 Design React Portfolio |</span>
+            <span>| Updated: 18/07/25</span>
+          </div>
       </div>
+      <div></div>
     </div>
   );
 };

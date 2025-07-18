@@ -69,7 +69,7 @@ const ProjectGrid = ({ inModal = false ,limit  }) => {
     : projects;
   return (
     <div
-      className={`grid gap-10 ${
+      className={`grid gap-10 border-amber-100 ${
         inModal ? "grid-cols-1 md:grid-cols-1 lg:grid-cols-2" : ""
       }`}
     >

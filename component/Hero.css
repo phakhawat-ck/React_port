@@ -6,6 +6,10 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+.repeat-text{
+    font-weight: 500;
+    background-color: #190f3d;
+}
 .g-text{
     font-weight: 700;
     background: -webkit-linear-gradient(#eee, #333);
@@ -123,7 +127,7 @@
    Modal - Project "See All"
    ============================= */
 #my_modal_2 {
-    margin: 0;
+    margin: 10px;
     background-color: rgba(0, 0, 0, 0.664);
     transition: 0.3s;
 }
@@ -132,18 +136,16 @@
     background-color: #00000094;
     border-radius: 20px;
     border: 1px solid rgba(38, 38, 38, 0.7);
-    /* Optional: Soft Glow
-    box-shadow: 0 0 5px #ffffff11, 0 0 20px #ffffff71;
-    */
+    margin-top: 10px;
 }
 
 /* =============================
    Button
    ============================= */
 .btn {
+    margin: 5px;
     padding: 10px;
-    border-top-right-radius: 20px;
-    border-bottom-left-radius: 20px;
+    border-radius: 20px;
 
     svg {
         fill: rgba(255, 255, 255, 0.847);
